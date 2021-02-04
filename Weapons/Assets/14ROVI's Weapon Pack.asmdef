@@ -1,0 +1,8 @@
+{
+	"name": "14ROVI's Weapon Pack",
+	"references": [
+		"UnityEngine.UI",
+		"Unity.TextMeshPro",
+		"Unity.Mathematics"
+	]
+}

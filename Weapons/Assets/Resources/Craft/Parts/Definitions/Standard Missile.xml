@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="Standard Missile">
+  <PartType id="Standard Missile" includeInBodyDrag="true" name="Standard Missile" prefabPath="Assets/Resources/Craft/Parts/Prefabs/Standard Missile.prefab" mass="100" price="250000" partCollisions="Default" defaultMaterials="0,1,2,3,4" subpartsSharePartStyle="false" stylesShareHeader="false">
+    <Modifiers>
+      <Config autoActivateIfNoStageOrActivationGroup="false" buoyancyBaseScale="0" buoyancyUserScale="1" centerOfMass="0,0,0" collisionDisconnectImpulse="1000" collisionDisconnectVelocity="15" collisionExplodeImpulse="1500" collisionExplodeVelocity="20" collisionPreventExternalDisconnections="false" collisionVelocityMode="OmniDirectional" dragScale="1" fuelLine="false" heatShield="3000" includeInDrag="true" inertiaTensorBaseScale="1" inertiaTensorMin="0.05" inertiaTensorUserScale="1" massScale="1" maxDamage="100" maxTemperature="1500" occlusion="Auto" partCollisionHandling="Always" partCollisionResponse="Default" partScale="1,1,1" preventDebris="true" raiseWaterEventsEvenIfNotBuoyant="false" renderQueue="Default" stageActivationType="None" supportsActivation="true" supportsTransparency="true" thermalMassRatio="1" inspectorEnabled="false" partPropertiesEnabled="true" staticPriceAndMass="false" />
+      <Detacher detachOnActivated="true" force="0.1" targetAttachPoints="AttachPoint1" inspectorEnabled="false" partPropertiesEnabled="false" staticPriceAndMass="false" />
+      <ImaginaryWeapons.missile guided="false" missilePower="600" burnTime="5" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" />
+      <ImaginaryWeapons.explosion explosionPower="30" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" />
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint name="AttachPoint1" position="0,0.156,0" rotation="270,180,0" allowRotation="true" allowInvertedConnection="false" canReceive="true" canSeek="true" ignoreSurfaces="false" jointType="Rigid" />
+    </AttachPoints>
+    <SubpartTypes>
+      <SubpartType index="0" xmlName="" displayName="Part" />
+    </SubpartTypes>
+  </PartType>
+  <DesignerParts>
+    <DesignerPart name="Standard Missile" category="Other" description="Trusty missile will do your explosive work uwu" order="0" showInDesigner="true" snapshotDistanceScaler="1" snapshotPartRotation="0,180,0" snapshotRotation="30,30,0">
+      <Assembly>
+        <Parts>
+          <Part id="1" partType="Standard Missile" position="0,0,0" rotation="0,0,0">
+            <Config />
+            <Detacher />
+            <ImaginaryWeapons.missile />
+            <ImaginaryWeapons.explosion />
+          </Part>
+        </Parts>
+      </Assembly>
+    </DesignerPart>
+  </DesignerParts>
+  <PartStyles>
+    <SubpartStyles subpartIndex="0" />
+  </PartStyles>
+</Part>

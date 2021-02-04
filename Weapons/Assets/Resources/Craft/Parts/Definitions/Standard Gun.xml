@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="Standard Gun">
+  <PartType id="Standard Gun" includeInBodyDrag="true" name="Standard Gun" prefabPath="Assets/Resources/Craft/Parts/Prefabs/Standard Gun.prefab" mass="100" price="10000" partCollisions="Default" defaultMaterials="0,1,2,3,4" subpartsSharePartStyle="false" stylesShareHeader="false">
+    <Modifiers>
+      <Config autoActivateIfNoStageOrActivationGroup="true" buoyancyBaseScale="1" buoyancyUserScale="1" centerOfMass="0,0,0" collisionDisconnectImpulse="1000" collisionDisconnectVelocity="15" collisionExplodeImpulse="1500" collisionExplodeVelocity="20" collisionPreventExternalDisconnections="false" collisionVelocityMode="NormalOnly" dragScale="1" fuelLine="false" heatShield="0" includeInDrag="true" inertiaTensorBaseScale="1" inertiaTensorMin="0.05" inertiaTensorUserScale="1" massScale="1" maxDamage="100" maxTemperature="1500" occlusion="Auto" partCollisionHandling="Default" partCollisionResponse="Default" partScale="1,1,1" preventDebris="false" raiseWaterEventsEvenIfNotBuoyant="false" renderQueue="Default" stageActivationType="None" supportsActivation="true" supportsTransparency="true" thermalMassRatio="1" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" />
+      <ImaginaryWeapons.StandardGun RateMultiplier="false" RateOfFire="50" BulletSpeed="800" Caliber="90" Length="2.6" Tracers="-1" GunInput="F" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" />
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint name="AttachPoint1" position="0,-0.18,0" rotation="90,0,0" allowRotation="true" allowInvertedConnection="false" canReceive="true" canSeek="true" ignoreSurfaces="false" />
+    </AttachPoints>
+    <SubpartTypes>
+      <SubpartType index="0" xmlName="" displayName="Part" />
+    </SubpartTypes>
+  </PartType>
+  <DesignerParts>
+    <DesignerPart name="Standard Gun" category="Other" description="Shoots reliably, wont let you down." order="0" showInDesigner="true" snapshotDistanceScaler="0.6" snapshotPartRotation="0,180,0" snapshotRotation="30,30,0">
+      <Assembly>
+        <Parts>
+          <Part id="1" partType="Standard Gun" position="0,0,0" rotation="0,0,0">
+            <Config />
+            <ImaginaryWeapons.StandardGun />
+          </Part>
+        </Parts>
+      </Assembly>
+    </DesignerPart>
+  </DesignerParts>
+  <PartStyles>
+    <SubpartStyles subpartIndex="0">
+      <Style id="Default" displayName="Default" />
+    </SubpartStyles>
+  </PartStyles>
+</Part>

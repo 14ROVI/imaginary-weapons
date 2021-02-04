@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Part name="Medium Bomb">
+  <PartType id="Medium Bomb" includeInBodyDrag="true" name="Medium Bomb" prefabPath="Assets/Resources/Craft/Parts/Prefabs/Medium Bomb.prefab" mass="400" price="100000" partCollisions="Default" defaultMaterials="0,1,2,3,4" subpartsSharePartStyle="false" stylesShareHeader="false">
+    <Modifiers>
+      <Config autoActivateIfNoStageOrActivationGroup="false" buoyancyBaseScale="1" buoyancyUserScale="1" centerOfMass="0,0,0" collisionDisconnectImpulse="1000" collisionDisconnectVelocity="15" collisionExplodeImpulse="2000" collisionExplodeVelocity="30" collisionPreventExternalDisconnections="false" collisionVelocityMode="OmniDirectional" dragScale="1" fuelLine="false" heatShield="0" includeInDrag="true" inertiaTensorBaseScale="1" inertiaTensorMin="0.05" inertiaTensorUserScale="1" massScale="1" maxDamage="100" maxTemperature="1500" occlusion="Auto" partCollisionHandling="Default" partCollisionResponse="Default" partScale="1,1,1" preventDebris="false" raiseWaterEventsEvenIfNotBuoyant="false" renderQueue="Default" stageActivationType="None" supportsActivation="true" supportsTransparency="true" thermalMassRatio="1" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" />
+      <ImaginaryWeapons.explosion explosionPower="70" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" />
+      <Detacher detachOnActivated="true" force="1" targetAttachPoints="AttachPoint1" inspectorEnabled="true" partPropertiesEnabled="true" staticPriceAndMass="false" />
+    </Modifiers>
+    <AttachPoints>
+      <AttachPoint name="AttachPoint1" position="0,0.261,0.488" rotation="270,180,0" allowRotation="true" allowInvertedConnection="false" canReceive="true" canSeek="true" ignoreSurfaces="false" jointType="Rigid" />
+    </AttachPoints>
+    <SubpartTypes>
+      <SubpartType index="0" xmlName="" displayName="Part" />
+    </SubpartTypes>
+  </PartType>
+  <DesignerParts>
+    <DesignerPart name="Medium Bomb" category="Other" description="Is a bomb of the medium sized type" order="0" showInDesigner="true" snapshotDistanceScaler="1" snapshotPartRotation="0,180,0" snapshotRotation="30,30,0">
+      <Assembly>
+        <Parts>
+          <Part id="1" partType="Medium Bomb" position="0,0,0" rotation="0,0,0">
+            <Config />
+            <ImaginaryWeapons.explosion />
+            <Detacher />
+          </Part>
+        </Parts>
+      </Assembly>
+    </DesignerPart>
+  </DesignerParts>
+  <PartStyles>
+    <SubpartStyles subpartIndex="0">
+      <Style id="Default" displayName="Default" />
+    </SubpartStyles>
+  </PartStyles>
+</Part>

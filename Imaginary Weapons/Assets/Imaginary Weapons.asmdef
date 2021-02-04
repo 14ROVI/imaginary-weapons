@@ -1,0 +1,8 @@
+{
+	"name": "Imaginary Weapons",
+	"references": [
+		"UnityEngine.UI",
+		"Unity.TextMeshPro",
+		"Unity.Mathematics"
+	]
+}

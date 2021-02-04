@@ -1,0 +1,132 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 2135884626, guid: c37b925f2b4978342b2e0b83a8fa404a, type: 3}
+  m_Name: _PartModelImportData
+  m_EditorClassIdentifier: 
+  _models:
+  - _id: better gun
+    _meshes:
+    - _id: barrel
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: -2643173543783292932, guid: 6f9019c668d86464b94c858af25aeee9,
+        type: 3}
+      _submeshMap: 01000000
+      _subpartId: 0
+    - _id: body
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: -8545447256379345787, guid: 6f9019c668d86464b94c858af25aeee9,
+        type: 3}
+      _submeshMap: 00000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: 6f9019c668d86464b94c858af25aeee9,
+      type: 3}
+  - _id: flares thick
+    _meshes:
+    - _id: thick
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: 8897557352032322757, guid: 48b99e58ba036394cb6a36d512bd8b36,
+        type: 3}
+      _submeshMap: 020000000000000001000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: 48b99e58ba036394cb6a36d512bd8b36,
+      type: 3}
+  - _id: flares thin
+    _meshes:
+    - _id: thin
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: -4336329727204278556, guid: de902357c4faf514f94bb43b95aebaaf,
+        type: 3}
+      _submeshMap: 020000000000000001000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: de902357c4faf514f94bb43b95aebaaf,
+      type: 3}
+  - _id: large bomb
+    _meshes:
+    - _id: large bomb
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: -5301538171061114110, guid: 1346e4c193c0a964b8848fa3a05e8ea2,
+        type: 3}
+      _submeshMap: 010000000000000002000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: 1346e4c193c0a964b8848fa3a05e8ea2,
+      type: 3}
+  - _id: laser Mesh
+    _meshes:
+    - _id: Cylinder
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: 2534964839176971238, guid: f9d959ec010ebfe499c74ce779b0a713,
+        type: 3}
+      _submeshMap: 00000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: f9d959ec010ebfe499c74ce779b0a713,
+      type: 3}
+  - _id: medium bomb
+    _meshes:
+    - _id: medium bomb
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: 3824656066540823091, guid: 3bdc1cf366b875149b850fa833f75f53,
+        type: 3}
+      _submeshMap: 000000000200000001000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: 3bdc1cf366b875149b850fa833f75f53,
+      type: 3}
+  - _id: missile alt
+    _meshes:
+    - _id: alt missile
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: -1045987809479165777, guid: 35afbe5d88b95d94ea65b81627ab6a02,
+        type: 3}
+      _submeshMap: 0200000001000000000000000000000000000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: 35afbe5d88b95d94ea65b81627ab6a02,
+      type: 3}
+  - _id: missile default
+    _meshes:
+    - _id: default missile
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: -6494707951160007319, guid: a8036a9ddac1ff943a636266a8c19692,
+        type: 3}
+      _submeshMap: 02000000000000000100000003000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: a8036a9ddac1ff943a636266a8c19692,
+      type: 3}
+  - _id: missile fast
+    _meshes:
+    - _id: fast missile
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: 8548115800972729650, guid: 7edf9df04306e04419d854a463c161b0,
+        type: 3}
+      _submeshMap: 03000000020000000000000001000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: 7edf9df04306e04419d854a463c161b0,
+      type: 3}
+  - _id: small bomb
+    _meshes:
+    - _id: small bomb
+      _initialized: 1
+      _isCollider: 0
+      _mesh: {fileID: 5453066850169975021, guid: 9a41dfcf75639284aa24ff122702faee,
+        type: 3}
+      _submeshMap: 010000000000000002000000
+      _subpartId: 0
+    _model: {fileID: -927199367670048503, guid: 9a41dfcf75639284aa24ff122702faee,
+      type: 3}
